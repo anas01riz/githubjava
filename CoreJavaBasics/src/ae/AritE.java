@@ -1,41 +1,41 @@
 package ae;
 
 import java.util.Scanner;
-public class ArithmeticException {
+public class AritE {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a,b,c,flag=0;
+		int x,y,z,temp=0;
 		Scanner s=new Scanner(System.in);
-		a=s.nextInt();
-		b=s.nextInt();
-		c=s.nextInt();
-		if(a+b==c)
+		x=s.nextInt();
+		y=s.nextInt();
+		z=s.nextInt();
+		if(x+y==z)
 		{
 			System.out.println("Add");
-			flag=1;
+			temp=1;
 		}
 		
-		if(a-b==c)
+		if(x-y==z)
 		{
 			System.out.println("Subtract");
-			flag=1;
+			temp=1;
 		}
-		if(a*b==c)
+		if(x*y==z)
 		{
 			System.out.println("Multiply");
-			flag=1;
+			temp=1;
 		}
-		  if(a/b==c)
+		  if(x/y==z)
 		  {
 			System.out.println("Divide");
-			flag=1;
+			temp=1;
 		  }
-		  if(a%b==c)
+		  if(x%y==z)
 		  {
 			System.out.println("Modulo");
-			flag=1;
+			temp=1;
 		  }
-		 if(flag==0) 
+		 if(temp==0) 
 			System.out.println("Not Possible");	
 	}
 }
