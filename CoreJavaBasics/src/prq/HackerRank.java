@@ -2,10 +2,31 @@ package prq;
 
 class Student implements Comparable<Student>{
 
+	private int id;
+	private String fname;
+	private double cgpa;
+	
 	@Override
-	public int compareTo(Student arg0) {
+	public int compareTo(Student s) {
+		
+	if 
+		return id;
 		// TODO Auto-generated method stub
-		return 0;
+		
+		
+	
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public String getFname() {
+		return fname;
+	}
+
+	public double getCgpa() {
+		return cgpa;
 	}
 	
 }
