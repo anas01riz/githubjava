@@ -7,6 +7,7 @@ public class ClassC extends ClassA {
 		System.out.println(ClassA.m1);
 		//System.out.println(ClassA.m2);
 		System.out.println(ClassA.m3);
+		System.out.println(ClassA.m4);
 
 	}
 
