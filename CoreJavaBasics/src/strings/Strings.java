@@ -1,5 +1,7 @@
 package strings;
 
+import java.util.Scanner;
+
 public class Strings {
 	
 	//String - immutable
@@ -9,10 +11,12 @@ public class Strings {
 	static StringBuffer sb = new StringBuffer("Hello World");
 	static StringBuffer sb2 = new StringBuffer("Hello");
 	//String Buffer - mutable threading allowed one at a time
-	StringBuilder sb1 = new StringBuilder("Hell Yeah");
+	static StringBuilder sbb = new StringBuilder("Hello");
 	public static void main(String[] args) {
 		
-		
+		System.out.println(sbb.capacity());
+		System.out.println(sbb.charAt(3));
+		System.out.println(sbb.indexOf(str));
 		
 		
 		
@@ -45,7 +49,16 @@ public class Strings {
 ////		System.out.println(str.length());
 ////		System.out.println(str.charAt(2));
 ////		System.out.println(str.codePointAt(2));
+		
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
+		
+		
 ////		System.out.println(str.concat("Bike"));
+		
 ////		System.out.println(str.equalsIgnoreCase("str2"));
 //		System.out.println(str.substring(5,str.length()));
 //		System.out.println(str);
