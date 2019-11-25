@@ -5,10 +5,16 @@ import java.io.BufferedOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.ObjectOutputStream;
+
+import p1.Employee;
 
 public class FileIo {
 
 	public static void main(String[] args) throws IOException {
+		
+		Employee E1 = new Employee(10,"Eswar", null, 0, 0);
+		
 		// TODO Auto-generated method stub
 		FileInputStream fis = new FileInputStream("C:\\Users\\Trainee\\Desktop\\Anas.txt");
 		BufferedInputStream bis = new BufferedInputStream(fis);
@@ -18,6 +24,13 @@ public class FileIo {
 //		BufferedReader br = new BufferedReader(fr);
 //		FileWriter fw = new FileWriter("C:\\Users\\Trainee\\Desktop\\Riz.txt");
 //		BufferedWriter bw = new BufferedWriter(fw);
+		FileOutputStream fout = new FileOutputStream("C:\\\\Users\\\\Trainee\\\\Desktop\\\\Anas.txt");
+		ObjectOutputStream out = new ObjectOutputStream(fout);
+		out.flush();
+		out.close();
+		
+		//DeSerialization 
+		
 		
 //		
 //		
