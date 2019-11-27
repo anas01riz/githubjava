@@ -15,6 +15,7 @@ public class Strings {
 	public static void main(String[] args) {
 		
 		System.out.println(sbb.capacity());
+//		System.out.println(sbb.inse);
 //		System.out.println(sbb.charAt(3));
 //		System.out.println(sbb.indexOf(str));
 //		
