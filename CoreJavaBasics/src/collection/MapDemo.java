@@ -26,11 +26,15 @@ public class MapDemo {
 		System.out.println(keys);
 		
 		//retreive all pairs
+		//
 		
 		Set<Map.Entry<Integer,String>> kv = hm.entrySet();
 		for (Map.Entry<Integer,String> k:kv) {
 			System.out.println(k.getKey()+ ":" + k.getValue());
 		}
+		
+		
+		//
 	}
 
 }
