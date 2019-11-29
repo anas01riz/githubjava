@@ -1,6 +1,6 @@
 package multithreading;
 
-public class Square extends Thread {
+public class Square  {
 public void square() throws InterruptedException
 {
 for(int i=1;i<10;i++) {

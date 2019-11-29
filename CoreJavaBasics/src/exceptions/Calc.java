@@ -10,6 +10,13 @@ public class Calc {
 //		sum+=nums;
 		return sum;
 	}
+
+	public char[] summ;
+
+	public void start() {
+		// TODO Auto-generated method stub
+		
+	}
 	
 //	public static void main(String[] args) {
 //		// TODO Auto-generated method stub

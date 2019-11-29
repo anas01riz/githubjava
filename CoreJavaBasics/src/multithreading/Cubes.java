@@ -1,6 +1,6 @@
 package multithreading;
 
-public class Cubes extends Thread {
+public class Cubes {
 public void cubes()
 {
 for(int i=1;i<10;i++)
@@ -19,5 +19,6 @@ public void run()
 {
 cubes();
 }
+
 
 }
