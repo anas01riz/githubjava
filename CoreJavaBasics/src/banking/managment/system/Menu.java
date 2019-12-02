@@ -1,7 +1,11 @@
 package banking.managment.system;
 
+import java.util.Scanner;
+
 public class Menu implements Food{
-	public static void menu() {
+	Scanner sc = new Scanner(System.in);
+	 public int menu()
+	 {
 		System.out.println("==========\r\n" + 
 				"Menu: \r\n" + 
 				"==========\r\n" + 
@@ -13,6 +17,7 @@ public class Menu implements Food{
 		System.out.println("Enter your choice:\r\n " );
 		int menu=sc.nextInt();
 		System.out.println("***************Enjoy your meals***************");
+		return menu;
 	}
 	
 

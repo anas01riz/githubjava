@@ -1,13 +1,17 @@
 package ae;
 
 
-public class StringEx
-{
-public static void main(String[] args)
-{
-char[ ]ch = {'i','P','r','i','m','e','d'};
-String str="iprimed";
-System.out.println(ch);
-System.out.println(str);
+import java.util.ListIterator;
+ class Collection_iterators 
+ {
+ public static void main(String args[]) 
+ {
+ ListIterator a = list.listIterator();
+ 
+ if(a.previousIndex()!= -1)
+while(a.hasNext())
+System.out.print(a.next() + " ");
+else
+System.out.print("EMPTY");
 }
 }

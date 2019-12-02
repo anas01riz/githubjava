@@ -8,12 +8,7 @@ public class MainApplication {
 	static String ch="n";
 	static int c;
 	public static void roomType(int choice) throws RoomAlreadyBookedException {
-		System.out.println("Choose room type :\r\n" + 
-				"1. Luxury Double Room \r\n" + 
-				"2.Deluxe Double Room \r\n" + 
-				"3. Luxury Single Room \r\n" + 
-				"4.Deluxe Single Room\r\n" + 
-				"");
+		
 		switch(choice) {
 		case 1:c=sc.nextInt();
 		System.out.println("Number of double beds : 1\r\n" + 
