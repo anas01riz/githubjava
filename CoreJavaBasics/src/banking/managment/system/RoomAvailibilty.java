@@ -23,23 +23,24 @@ public class RoomAvailibilty {
 				"Charge per day:4000 \r\n" + 	 
 				"");
 		break;
-		case 2: 
-			System.out.println("Number of rooms available : 20");
-			break;
-		case 3:
-			System.out.println("Choose room number from : \r\n" + "1,2,3,4,5,6,7,8,9,10\r\n" ); 
-				System.out.println("Enter room number: \n" );
-				int room=sc.nextInt();
-				while(room==5 || room==8) {
-						throw new RoomAlreadyBookedException("Room is already Booked please select some other rooms");	
-				}
-//				room=sc.nextInt();
-				
-				System.out.println("Enter customer name: \n" );
-				sc.next();
-				System.out.println("Enter contact number: \n" );
-				sc.nextLong();
-				break;
+		
+//		case 2: 
+//			System.out.println("Number of rooms available : 20");
+//			break;
+//		case 3:
+//			System.out.println("Choose room number from : \r\n" + "1,2,3,4,5,6,7,8,9,10\r\n" ); 
+//				System.out.println("Enter room number: \n" );
+//				int room=sc.nextInt();
+//				while(room==5 || room==8) {
+//						throw new RoomAlreadyBookedException("Room is already Booked please select some other rooms");	
+//				}
+////				room=sc.nextInt();
+//				
+//				System.out.println("Enter customer name: \n" );
+//				sc.next();
+//				System.out.println("Enter contact number: \n" );
+//				sc.nextLong();
+//				break;
 			
 		}
 
