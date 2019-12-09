@@ -43,7 +43,7 @@ public class StreamDemo {
 		
 		//foreach() - print all arraylist elements
 		System.out.println("array elements");
-		marks.parallelStream().forEach(System.out::println);
+		marks.parallelStream().forEach(System.out::println); //15 20 5 1
 		
 	}
 
